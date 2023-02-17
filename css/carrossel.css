@@ -1,0 +1,47 @@
+
+.overflow{
+    margin: 0 auto;
+    width: 1480px;
+    overflow: hidden;
+
+    
+}
+
+.galery{
+    text-align: center;
+    width: 1800px;
+    height: 480px;
+    margin-top: 5px;
+}
+ .fotos{
+    height: 100%;
+    width: 400%;
+    animation-name: animacao;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+}
+.galery .fotos img{
+    max-width: 1480px;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    
+}
+.galery .fotos img:not(:last-child){
+     margin-right: 90px;
+}
+.fotos img:hover{
+    padding: 0.1%;
+}
+
+@keyframes animacao{
+    0%{ margin-left: -70%;}
+    
+    25%{   margin-left: -70%;}
+
+    50%{margin-left: -158%;}
+    75%{margin-left: -158%;}
+
+    90%{margin-left: -245%;}
+    100%{margin-left: -245%;}
+}

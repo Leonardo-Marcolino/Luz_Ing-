@@ -1,0 +1,267 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+:root{
+    --White: hsl(0, 0%, 100%);
+    --black-900: hsl(0, 0%, 0%);
+    --black-700: hsl(0, 0%, 9%);
+    --gray-100: hsl(0, 0%, 59%);
+    --gray-200: hsl(0, 0%, 45%);
+    --gray-400: hsl(0, 0%, 50%);
+    --yellow-700: hsl(51, 98%, 48%);
+    --yellow-900: hsl(51, 100%, 50%);
+}
+
+.center{
+    max-width: 1480px;
+    margin: 0 auto;
+    padding: 0 2%;
+    display: flex;
+    justify-content: space-between;
+}
+header{
+    width: 100%;
+    height: 5rem;
+    background-color: var(--gray-400);
+    justify-content: space-between;
+}
+.logo{
+padding-top: 1%;
+
+}
+.logo img{
+    height: 50px;
+}
+.logo > span{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.navBar{
+    margin-top: 2%;
+    display: flex;
+
+}
+.navBar > input{
+    padding: 2%;
+    height: 100%;
+    border-radius: 10px;
+}
+.navBar >  span{
+    padding: 2%;
+    margin-left: -6px;
+    font-weight: bold;
+    text-align: center;
+    color: var(--White);
+    background-color: var(--black-900);
+    border-top-right-radius: 10px ;
+    border-bottom-right-radius: 10px ;
+    border-left: none;
+    cursor: pointer;
+}
+
+.menu{
+    padding-top: 1%;
+}
+nav > a > button{
+    width: 100px;
+    height: 40px;
+    color: var(--yellow-700);
+    border-radius: 10px;
+    border: 3px solid var(--yellow-700);
+    background-color: transparent;
+
+}
+nav > a > button:hover{
+    background-color: var(--yellow-700);
+    color: var(--White);
+    font-weight: bold; 
+    transition: 0.5s;
+}
+.bar{
+    font-size: 25px;
+    margin: 0 10px;
+    color: var(--yellow-700);
+}
+.banners{
+    height: 50%;
+}
+.banners > a{
+    width: 100%;
+    height: 5%;
+}
+.banners > a  > img{
+    width: 100%;
+    height: 50%;
+}
+section{
+    margin: 0 auto;
+    max-width: 1480px;
+    padding: 0 2%;
+
+}
+.textMasvendidos{
+    margin-top: 30px;
+}
+
+.grade{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.produtos{
+    width: 20%;
+    height:100%;
+    padding: 1%;
+    cursor: pointer;
+    border-radius: 10px;
+    border: 2px solid var(--gray-100);
+    box-shadow: 5px 5px 10px var(--gray-200);
+}
+.produtos > img{
+    text-align: center;
+    width: 100%;
+}
+.produtos:hover{
+    opacity: 0.8;
+}
+.legend{
+    width: 100%;
+    font-size:14px;
+}
+.bardown{
+    width: 100%;
+    height: 2px;
+    background-color: var(--gray-100);
+    margin: 5% 0;
+}
+.price{
+    font-weight: bold;
+    font-size: 1.125rem;
+    margin-bottom: 2%;
+}
+.btnPurchase{
+    padding: 2%;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 5px;
+    background-color: var(--yellow-700);
+}
+.btnPurchase:hover{
+    cursor: pointer;
+    color: var(--White);
+    background-color: var(--yellow-900);
+    transition: 0.5s;
+}
+.btnVerMais{
+    display: block;
+    margin-top: 2%;
+    width: 10%;
+    padding: 0.5%;
+    text-align: center;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    background-color: var(--yellow-700);
+}
+.btnVerMais:hover{
+    background-color: var(--yellow-700);
+    color: var(--White);
+    font-weight: bold; 
+    transition: 0.5s;
+}
+
+.areaCadastre{
+    margin-top: 2%;
+    background-color: var(--gray-100)
+}
+.grade2{
+    margin: 0 auto;
+    padding: 2% 0;
+    max-width: 1480px;
+    text-align: center;
+
+}
+.grade2 h2{
+    color: var(--White);
+}
+.areaCadastre  p{
+    font-size: 20px;
+    color: var(--White);
+}
+.btnSignup{
+    width: 25%;
+    height: 25%;
+    margin-right: 2%;
+    padding: 0.625rem;
+    text-align: center;
+    color: var(--black-700);
+    border: var(--gray-200);
+    border-radius: 5px;
+}
+
+
+.btnsubmit{
+    width: 130px;
+    height: 25%;
+    padding: 0.625rem;
+    border-radius: 5px;
+    font-weight: bold;
+    border: none;
+    color: var(--White);
+    background-color: var(--black-900);
+}
+.btnsubmit:hover{
+    background-color: var(--black-700);
+}
+
+.areaSobre{
+    background-color: var(--yellow-900);
+}
+.grade3{
+    max-width: 1480px;
+    margin: 0 auto;
+    padding: 2%;
+    display: flex;
+    justify-content: space-between;
+}
+.grade3 >.logo > span{
+    font-size: 40px;
+
+}
+
+.address > h2{
+    font-weight: bold;
+
+}
+.address > p{
+    font-size: 18px;
+}
+.redeSociais > a > img{
+    width: 50px;
+    height: 50px;
+
+}
+
+.btn-whatsApp{
+    position: fixed;
+    width: 1%;
+    height: 1%;
+    bottom: 10%;
+    right: 5%;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 10px;
+    z-index: 9999;
+    cursor: pointer;
+
+}
+.btn-whatsApp > img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+}
